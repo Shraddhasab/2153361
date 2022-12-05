@@ -1,0 +1,20 @@
+.p1 {
+  padding: 20px;
+  color: red;
+  border: 1px solid black;
+  height: 4px;
+}
+
+.p2 {
+  padding: 40px;
+  color: red;
+  border: 1px solid black;
+  height: 8px;
+}
+
+.p3 {
+  padding: 60px;
+  color: red;
+  border: 1px solid black;
+  height: 12px;
+}
