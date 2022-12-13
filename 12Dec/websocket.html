@@ -1,0 +1,21 @@
+console.log('Client Disconnected');
+    ws.close();
+    ws.addEventListener('close',()=>{
+        console.log("Server Stopped");
+    });
+
+    return false;
+
+
+
+ }
+
+ if(ws!=null)
+ ws.addEventListener('message',()=>{
+    console.log("message received");
+ });
+
+ if(ws!=null)
+ ws.addEventListener('error',()=>{
+    console.log("error received");
+ });
